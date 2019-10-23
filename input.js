@@ -21,6 +21,14 @@ const handleUserInput = function(key) {
     console.log("Thank you for playing!")
     process.exit();
   }
+  if (key === 'p') {
+    console.log("Typing...!")
+    connection.write("Say: So much fun!");
+  }
+  if (key === 'o') {
+    console.log("Typing...!")
+    connection.write("Say: eat my dust!");
+  }
 }
 
 const setupInput = function(conn) {
