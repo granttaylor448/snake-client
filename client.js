@@ -17,6 +17,13 @@ const connect = function() {
   conn.on('connect', () => {
     console.log('Welcome to the party');
   });
+  conn.on('connect', () => {
+    conn.write('Name: GT');
+  });
+
+  conn.on('connect', () => {
+    conn.write('Move: down');
+  });
   
   return conn;
   
