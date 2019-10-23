@@ -24,7 +24,7 @@ const connect = function() {
     // setTimeout(() => conn.write('Move: left'), 1000);
     // setTimeout(() => conn.write('Move: up'), 1500);
     // setTimeout(() => conn.write('Move: right'), 2000);
-    setInterval(() => conn.write('Move: up'), 500)
+    setInterval(() => conn.write('Move: left'), 500)
   });
 
   // conn.on('connect', () => {
